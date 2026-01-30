@@ -1,0 +1,225 @@
+*{                                                    
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    height: 100vh;
+}
+main{
+    height: 80vh;
+    margin: auto;
+    max-width: 935px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin: 20px 0;
+}
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.dc {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.jcc {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.aic {
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.flex-wrap {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.panel{
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#auth{
+    max-width: 350px;
+}
+#mobile{
+    max-width: 454px;
+}
+#mobile{
+    height: 618px;
+}
+
+.login-with-fb ,
+form{
+    width: 100%;
+}
+.register,
+form{padding: 30px 20px;}
+
+.login-with-fb{
+    padding: 30px 20px 20px 20px ;
+}
+form .sr-only{
+    display: none;
+}
+form input{
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    color: #808080;
+    margin-bottom: 8px;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+form input::placeholder{
+    color: #808080;
+}
+form input:focus{
+    border: 1px solid #808080;
+    outline: navajowhite;
+}
+#ln{
+    background-color: #0095f6;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 10px;
+    width: 100%;
+}
+#ln:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#fp{
+    background-color:white;
+    border-radius: 50px;
+    color:black;
+    font-weight: 500;
+    height: 35px;
+    margin-top: 10px;
+    width: 100%;
+}
+#fp:hover{
+    background-color: oklab(93.75% -0.00346 0.00023);
+    text-decoration: underline;
+    color:#0095f6;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#facebook{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+#facebook:hover{
+    cursor: pointer;
+    background-color:  oklab(96.881% -0.00583 0.00087);
+}
+
+#new-account{
+    width: 270px;
+    height: 35px;
+    margin-top: 5px;
+    color: #0095f6;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #0095f6;
+    border-radius: 50px;
+}
+
+#new-account:hover{
+    background-color: oklab(96.881% -0.00583 0.00087);
+    cursor: pointer;
+}
+
+.se span {
+    background-color: #dbdbdb;
+    height: 1px;
+    width: calc(100% - 10px);
+}
+
+.se .or {
+    color: #808080;
+    font-weight: bold;
+}
+
+.se { padding: 0 20px; }
+.se span:first-child { margin-right: 10px;}
+.se span:last-child { margin-left: 10px;}
+
+/* .login-with-fb  { 
+    color: #385185; 
+}  */
+
+ .login-with-fb > a { font-size: 12px; }
+.login-with-fb div  { font-weight: bold; }
+.login-with-fb div { margin-bottom: 15px; }
+
+@media screen and (max-width: 767px) {
+    main { margin: 30px auto 50px auto; }
+    footer .copyright,
+    footer ul li a { font-size: 13px; }
+}
+
+.links{
+    width: 100vw;
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align:center;
+    font-size: 12px;
+    color: white;
+    
+}
+a{
+    color: rgb(143, 142, 142);
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center ;
+    font-size: 12px;
+    color: rgb(143, 142, 142);
+}
